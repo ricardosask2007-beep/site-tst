@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #B2FBFC;
+    --cor2: #86A0A8;
+    --cor3: #71717D;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #71717D, #86A0A8, #71717D);
+    
+}
+
+header {
+        background-color: var(--cor3);
+        height: 60px;
+        
+}
+
+header h1#nome {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+}
+
+#icons{
+    color: black;
+    display: flex;
+
+    justify-content: center;
+    
+    padding-top: 5px;
+    gap: 20px;
+    
+}
+
+main {
+    
+}
+
+main img#eu {
+    height: 100px;
+    width: 100px;
+}
